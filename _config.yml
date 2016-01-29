@@ -23,5 +23,5 @@ markdown: kramdown
 
 future: true
 
-permalink: /event/:year/:month/:day/:title
+permalink: pretty
 
