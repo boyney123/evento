@@ -1,0 +1,61 @@
+---
+layout: default
+cover: 'http://just-be.co.uk/wp-content/uploads/2014/05/c-4.jpg'
+---
+
+<div class="home">
+    
+    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+
+    <div class="clearfix">
+
+      <h1 class="event-time-heading">Future Events </h1>
+
+      {% for post in site.posts %}
+
+        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+        {% if blogDate >= currentDate %}
+      
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.cover %}
+            <div class="event-sqaure" style="background-image:url({{post.cover}});">
+            {% else %}
+            <div class="event-sqaure" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+            {% endif %}
+              <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+               <div class='event-overlay'></div>
+            </div>
+           
+          </a>
+
+        {% endif %}
+
+      {% endfor %}
+    </div>
+    <div class="clearfix">
+      <h1 class="event-time-heading">Past Events</h1>
+      {% for post in site.posts %}
+
+        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+        {% if blogDate < currentDate %}
+
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.cover %}
+            <div class="event-sqaure" style="background-image:url({{post.cover}});">
+            {% else %}
+            <div class="event-sqaure" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+            {% endif %}
+              <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+              <div class='event-overlay'></div>
+            </div>
+            
+          </a>
+
+        {% endif %}
+
+      {% endfor %}
+    </div>
+
+</div>

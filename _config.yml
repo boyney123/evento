@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Evento
+email: your-email@domain.com
+cover: LOL
+author: David Boyne
+company_name: Comparethemarket
+description: > # this means to ignore newlines until "baseurl:"
+  Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: boyney123
+github_username:  Evento
+
+# Build settings
+markdown: kramdown
+
+future: true
