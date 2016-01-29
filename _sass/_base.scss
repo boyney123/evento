@@ -210,6 +210,12 @@ pre {
     background-size: cover;
     background-position: center center;
     z-index: 1;
+    @include media-query($on-laptop){
+        height: 250px;
+    }
+    @include media-query($on-palm){
+        height: 200px;
+    }
 }
 
 .event-sqaure{

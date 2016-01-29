@@ -22,3 +22,6 @@ github_username:  Evento
 markdown: kramdown
 
 future: true
+
+permalink: /event/:year/:month/:day/:title
+
