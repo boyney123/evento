@@ -205,67 +205,8 @@ pre {
     }
 }
 
-.blog-cover{
-    height: 320px;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-    @include media-query($on-laptop){
-        height: 250px;
-    }
-    @include media-query($on-palm){
-        height: 200px;
-    }
-}
-
-.event-sqaure{
-    color:white;
-    border: 1px solid #372121;
-    position: relative;
-    background-size: cover;
-    background-position: center center;
-    width: 30%;
-    float: left;
-    margin: 20px 20px 0 0;
-    height: 100%;
-    box-sizing: border-box;
-
-    height: 180px;
-    border-radius: 3px;
-    background-color: #333;
-    box-shadow: 0 0 1px rgba(0,0,0,.05);
-    border: 1px solid #ddd;
-    -webkit-tap-highlight-color: transparent;
-
-    h2{
-        position:absolute;
-        bottom:0px;
-        left:10px;
-        font-size:20px;
-        span{
-            font-size:14px;
-            display:block;
-        }
-    }
-}
-
-@include media-query($on-laptop) {
-    .event-sqaure {
-        margin-right:10px;
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .event-sqaure {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
 
 footer{
-    background: #4e4f4b;
-    color:#8E8F8C;
+    background: #353e48;
+    color:#D2D2D2;
 }

@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Evento Theme/Blog
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -7,20 +7,26 @@
 
 # Site settings
 title: Evento
-email: your-email@domain.com
-cover: LOL
-author: David Boyne
-company_name: Comparethemarket
+
+#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
+event_label: Brownbags
+
 description: > # this means to ignore newlines until "baseurl:"
   Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+#These settings might be able to go?
+author: David Boyne
 twitter_username: boyney123
 github_username:  Evento
+company_name: Comparethemarket
 
 # Build settings
 markdown: kramdown
 
+#Have to show future posts for future events.
 future: true
 
 permalink: /event/:year/:month/:day/:title.html
