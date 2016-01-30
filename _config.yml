@@ -9,7 +9,7 @@
 title: Evento
 
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Brownbags
+event_label: Events
 
 description: > # this means to ignore newlines until "baseurl:"
   Simple Jekyll theme to host internal/external events happening in and around your area. Free free to contribute or fork the repo.
