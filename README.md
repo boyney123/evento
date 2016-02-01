@@ -26,7 +26,9 @@ Access via: [http://localhost:4000](http://localhost:4000)
 [Demo](http://evento.davidboyne.co.uk)
 [Download](https://github.com/boyney123/evento/archive/master.zip)
 
+### Screen Shot 1
 ![Evento - free Jekyll theme](/screenshot.png)
+### Screen Shot 2
 ![Evento - free Jekyll theme](/screenshot2.png)
 
 ---
