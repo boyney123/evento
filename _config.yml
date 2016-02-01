@@ -20,7 +20,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 #These settings might be able to go?
 author: David Boyne
 twitter_username: boyney123
-github_username:  Evento
+github_username:  boyney123/evento
 company_name: Comparethemarket
 
 # Build settings

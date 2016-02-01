@@ -325,7 +325,7 @@ footer {
   word-wrap: break-word;
   padding: 0;
   margin: 0;
-  width: 60%; }
+  width: 75%; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px;

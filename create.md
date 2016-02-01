@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to create an event using Evento
+title: Create an event using Evento
 navigation_title: Create Event
 permalink: /create/
 button: true
@@ -24,9 +24,6 @@ YYYY-MM-DD-title.md
 #leave this alone
 layout: post
 
-#authors name
-author: Dave Boyne
-
 #Whats the title of your event.
 title:  "Talk on ES6 JavaScript"
 
@@ -36,8 +33,20 @@ cover: "https://frontendmasters.com/assets/es6-logo.png"
 #The date of the event. 
 date:   2016-02-01 16:04:19 +0000
 
-#Add your talk to any categories
-categories: jekyll update
+#Start time of the event
+start_time: "12:00"
+
+#end time of the event
+end_time: "13:00"
+
+#event organiser details
+
+#email address that gets send an email when the user registers interest
+organiser_email: "david.boyne@test.com"
+#the organisers name
+organiser_name : "David Boyne"
+#the organisers photo
+organiser_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg
 
 ---
 {% endhighlight %}
@@ -51,17 +60,31 @@ After you have setup your config, all you need to do know is write your content 
 {% highlight markdown%}
 ---
 layout: post
-title:  "Talk on ES6 JavaScript"
 
-cover: "https://frontendmasters.com/assets/es6-logo.png"
-date:   2016-02-01 16:00:19 +0000
-categories: jekyll update
-author: Dave Boyne
+#event information
+title:  "ReactJS"
+cover: "http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
+date:   2016-03-28
+start_time: "12:00"
+end_time: "13:00"
+
+#event organiser details
+organiser_email: "david.boyne@test.com"
+organiser_name : "David Boyne"
+organiser_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+
 ---
 
-Hey guys! I'm going to be doing a talk on how to create new websites using Jekyll.
- 
-Talk will be about 30 minutes long. Be great if you could come along to make it!	
+I will be doing a small talk on an Introduction into ReactJS. We will cover the following:
+
+- What is React?
+- How to get setup with React.
+- How to get building React Apps.
+- Bundle your application
+- Release your application
+
+If this sounds interesting please register your interest below.
+
 
 {% endhighlight %}
 
