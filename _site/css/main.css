@@ -210,7 +210,14 @@ footer {
         padding: 5px 10px;
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
+          margin-right: 0; }
+      .site-nav .button.button-primary {
+        background: none;
+        color: inherit;
+        box-shadow: none; }
+        .site-nav .button.button-primary:hover {
+          text-decoration: underline;
+          background: none; } }
 
 /**
  * Site footer
@@ -292,6 +299,14 @@ footer {
  */
 .post-header {
   margin-bottom: 30px; }
+
+.post-date {
+  margin: 0;
+  padding: 0; }
+
+.post-time {
+  margin: 0;
+  color: #A6A6A6; }
 
 .post-title {
   font-size: 42px;
@@ -549,10 +564,10 @@ footer {
 
 .button.button-primary {
   color: #ffffff;
-  background: #5cb85c;
+  background: #965CB8;
   box-shadow: #324832 0 2px 0 0;
   padding: 10px 16px 8px 16px;
   border-radius: 6px;
   text-decoration: none; }
   .button.button-primary:hover {
-    background: #83D583; }
+    background: #ab82b8; }

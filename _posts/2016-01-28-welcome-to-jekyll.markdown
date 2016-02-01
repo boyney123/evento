@@ -3,7 +3,9 @@ layout: post
 title:  "ReactJS"
 
 cover: "http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"
-date:   2016-03-28 16:00
+date:   2016-03-28
+start_time: "12:00"
+end_time: "13:00"
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

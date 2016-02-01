@@ -89,6 +89,17 @@
             }
             margin-left: 20px;
         }
+
+        .button.button-primary{
+          background: none;
+          color: inherit;
+          box-shadow: none;
+          &:hover{
+            text-decoration: underline;
+            background:none;
+          }
+        }
+
     }
 }
 
@@ -202,6 +213,16 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+}
+
+.post-date{
+  margin:0;
+  padding: 0;
+}
+
+.post-time{
+  margin: 0;
+  color:#A6A6A6;
 }
 
 .post-title {
