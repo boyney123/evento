@@ -11,7 +11,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
       <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
 
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
 
         {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
 

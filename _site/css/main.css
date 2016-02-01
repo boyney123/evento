@@ -275,10 +275,14 @@ footer {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  position: relative; }
 
 .page-heading {
   font-size: 20px; }
+
+.post {
+  position: relative; }
 
 .post-list {
   margin-left: 0;
@@ -294,6 +298,9 @@ footer {
   display: block;
   font-size: 24px; }
 
+.post-organisers-name {
+  color: grey; }
+
 /**
  * Posts
  */
@@ -301,10 +308,13 @@ footer {
   margin-bottom: 30px; }
 
 .post-date {
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0; }
 
 .post-time {
+  line-height: 18px; }
+
+.post-time, .post-organisers-name {
   margin: 0;
   color: #A6A6A6; }
 
@@ -312,10 +322,17 @@ footer {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  width: 60%; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 36px;
+      width: 70%; } }
+  @media screen and (max-width: 600px) {
+    .post-title {
+      width: 50%; } }
 
 .post-content {
   margin-bottom: 30px; }
@@ -347,7 +364,8 @@ footer {
   height: 320px;
   background-size: cover;
   background-position: center center;
-  z-index: 1; }
+  z-index: 1;
+  border-bottom: 1px solid #E8E8E8; }
   @media screen and (max-width: 800px) {
     .blog-cover {
       height: 250px; } }
@@ -403,6 +421,25 @@ footer {
   background-color: transparent;
   background-image: -webkit-linear-gradient(rgba(15, 20, 31, 0) 0, rgba(15, 20, 31, 0.1) 25%, rgba(15, 20, 31, 0.8) 100%);
   background-image: linear-gradient(rgba(15, 20, 31, 0) 0, rgba(15, 20, 31, 0.1) 25%, rgba(15, 20, 31, 0.8) 100%); }
+
+.author {
+  position: absolute;
+  top: -90px;
+  right: 20px;
+  height: 160px;
+  width: 160px;
+  border-radius: 6px;
+  background-size: cover;
+  box-shadow: 1px 1px 2px 1px #C4C4C4; }
+  @media screen and (max-width: 800px) {
+    .author {
+      height: 140px;
+      width: 140px; } }
+  @media screen and (max-width: 600px) {
+    .author {
+      height: 100px;
+      width: 100px;
+      top: 0px; } }
 
 @media screen and (max-width: 800px) {
   .event-sqaure {
