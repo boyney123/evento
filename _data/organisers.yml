@@ -1,0 +1,21 @@
+David Boyne:
+    name: David Boyne
+    email: "david.boyne@test.com"
+    photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+
+Jimmy Smith:
+    name: Jimmy Smith
+    email: "jimmy.smith@test.com"
+    photo: "https://randomuser.me/api/portraits/men/92.jpg"
+
+Frank Smith:
+    name: Frank Smith
+    email: "frank.smith@test.com"
+    photo: "https://randomuser.me/api/portraits/men/64.jpg"
+
+
+Laura Frank:
+    name: Laura Frank
+    email: "laura.frank@test.com"
+    photo: "https://randomuser.me/api/portraits/women/0.jpg"
+

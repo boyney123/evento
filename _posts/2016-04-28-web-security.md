@@ -9,11 +9,7 @@ start_time: "10:00"
 end_time: "17:00"
 
 #event organiser details
-organiser_email: "frank.smith@test.com"
-organiser_name : "Frank Smith"
-
-#Photo from https://randomuser.me/photos
-organiser_photo: "https://randomuser.me/api/portraits/men/64.jpg"
+organiser: "Frank Smith"
 
 
 ---

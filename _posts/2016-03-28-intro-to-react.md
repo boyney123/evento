@@ -9,9 +9,7 @@ start_time: "12:00"
 end_time: "13:00"
 
 #event organiser details
-organiser_email: "david.boyne@test.com"
-organiser_name : "David Boyne"
-organiser_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"
+organiser: "David Boyne"
 
 ---
 

@@ -41,12 +41,10 @@ end_time: "13:00"
 
 #event organiser details
 
-#email address that gets send an email when the user registers interest
-organiser_email: "david.boyne@test.com"
-#the organisers name
-organiser_name : "David Boyne"
-#the organisers photo
-organiser_photo: "https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg
+#event organiser details
+organiser: "Frank Smith"
+
+#Make sure you setup your Organiser details in the _data directory in the organisers.yml file
 
 ---
 {% endhighlight %}
