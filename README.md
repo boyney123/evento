@@ -5,7 +5,7 @@ Evento is a minimal, responsive theme for Jekyll. The projects allows people, gr
 ### Features
 
 * Clean layout
-* Resposive layout
+* Responsive layout
 * Shows future and past events
 * Easy for people to add events
 
